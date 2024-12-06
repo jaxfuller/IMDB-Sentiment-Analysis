@@ -79,17 +79,36 @@ Introducing an LSTM-based RNN allowed us to explore deep learning approaches. Th
 
 Taken together, these results illustrate the range of outcomes that can occur with different modeling techniques and feature representations. The simpler models combined with TF-IDF features demonstrated consistent and competitive performance, while the LSTM-based approach, though stronger at fitting the training data, did not translate those gains into equally strong generalization. By examining how each method behaved under similar conditions, we gained a better understanding of the strengths and limitations inherent in each approach, as well as the factors that influence sentiment classification accuracy.
 
+## **Getting Started**
+
+### **Prerequisites**
+
+- Python 3.x
+- Required Python libraries (listed in `requirements.txt`)
+
+### **Installation**
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/jaxfuller/IMDB-Sentiment-Analysis.git
+
+2. **Navigate to the project directory:**
+    ```bash
+    cd sentiment-analysis-imdb
+
+3. **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+
+4. **Download the dataset:**
+    * Download the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/).
+    * Extract the dataset and move the aclImdb folder to the data directory in the project.
+
 ## **Citing the Dataset**
 
-```bibtex
-@InProceedings{maas-EtAl:2011:ACL-HLT2011,
-  author    = {Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, Andrew Y. and Potts, Christopher},
-  title     = {Learning Word Vectors for Sentiment Analysis},
-  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
-  month     = {June},
-  year      = {2011},
-  address   = {Portland, Oregon, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {142--150},
-  url       = {http://www.aclweb.org/anthology/P11-1015}
-}
+> Maas, Andrew L., Daly, Raymond E., Pham, Peter T., Huang, Dan, Ng, Andrew Y., Potts, Christopher.  
+> *Learning Word Vectors for Sentiment Analysis.*  
+> Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies.  
+> June 2011, Portland, Oregon, USA.  
+> Association for Computational Linguistics. pp. 142–150.  
+> [http://www.aclweb.org/anthology/P11-1015](http://www.aclweb.org/anthology/P11-1015)
